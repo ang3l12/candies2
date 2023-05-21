@@ -40,9 +40,9 @@ public class CandyAdapter extends RecyclerView.Adapter<CandyAdapter.ViewHolder> 
 
 
     @Override
-    public int getItemCount() {
-        return 0;
-    }
+    public int getItemCount() { return candies.size();}
+
+
     public static class ViewHolder extends RecyclerView.ViewHolder {
         final ImageView candyView;
         final TextView nameView, myscoreView, dateView;
